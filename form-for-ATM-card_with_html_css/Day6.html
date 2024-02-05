@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Day6.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="LEFT">
+        <img id="backimg" src="./images/bg-card-back.png">
+        <img id="frontimg2" src="./images/bg-card-front.png">
+    </div>
+    <div id="RIGHT">
+        <div class="cardname">
+            <label for="input1" id="labels" placeholder="Enter your card number" maxlength="16" required>CARD
+                NAME</label>
+            <input type="text" id="input1" placeholder="Enter your card name">
+            <br>
+            <label for="input2" id="labels">CARD Number</label>
+            <input type="text" id="input1" placeholder="Enter your card number" maxlength="16" required>
+            <br>
+            <div id="privatedata">
+                <div>
+                    <label for="input3" id="labels">EXP DATE (MM\YY) Number</label>
+                    <input type="text" id="input3" placeholder="MM" maxlength="5" required>
+                    <input type="text" id="input3" placeholder="YY" maxlength="5" required>
+                </div>
+                <div>
+                    <label for="input3_1" id="labels">CVC</label>
+                    <input type="text" id="input3_1" placeholder="Enter CVV" maxlength="3" required>
+                </div>
+            </div>
+            <br>
+            <button type="submit" id="buttons"> Confirm</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<!---
+    <div class="card-form">
+    <label for="card-number">Card Number:</label>
+    <input type="text" id="card-number" placeholder="Enter your card number" maxlength="16" required>
+  
+    <label for="expiry-date">Expiry Date:</label>
+    <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>
+  
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" placeholder="Enter CVV" maxlength="3" required>
+  
+    <button type="submit">Submit</button>
+  </div>
+-->

@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:wght@100;300;400&display=swap");
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    margin-top: 28px;
+    width: 77%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+}
+
+#NavBar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+#LogoWithLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 56.5px;
+}
+
+#AnchorsWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 33px;
+    color: #69707d;
+    font-family: "Kumbh Sans";
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#AvatarWithCart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+
+}
+
+#AvatarIcon {
+    width: 40px;
+    height: 40px;
+}
+
+#Content {
+    border-top: 1px solid #979797;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+}
+
+#InnerContentWrapper {
+    height: 88%;
+    width: 91%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ImagesWrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#MainImage {
+    width: 100%;
+    height: 78%;
+}
+
+#MainProduct {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+#ThumbnailsImagesWrapper {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ThumbnailsImages {
+    width: 88px;
+    height: 88px;
+    border-radius: 10px;
+}
+
+/**
+
+#FirstThubmnils {
+    opacity: 0.4;
+}
+
+#FirstThubnilsWrapper {
+    box-sizing: border-box;
+}
+
+#FirstThubnilsWrapper {
+    width: 88px;
+    height: 88px;
+    border-radius: 10px;
+}
+
+#FirstThubnilsWrapper:hover {
+    cursor: pointer;
+    border: 2px solid #ff7e1b;
+}
+*/
+
+#InfoWrapper {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#InfoInnerWrapper {
+    height: 75%;
+    width: 100%;
+}
+
+#InfoInnerWrapper>p {
+    color: #69707d;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+.setopacity {
+    opacity: 0.4;
+}
+
+#SneakerCompanyLabel {
+    color: #ff7e1b;
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+#HeaderTittle {
+    color: #1d2026;
+    font-family: Kumbh Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+
+#LabelPrice {
+    color: #1d2026;
+    font-family: "Kumbh Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#DiscountPresentantge {
+    color: #ff7e1b;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #ffeee2;
+    display: flex;
+    align-items: center;
+}
+
+#PriceDiv {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+
+#ActualPrice {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+}
+
+#DiscountPrice {
+    text-decoration: line-through;
+}
+
+#ControlItem {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ItemNumbers {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f6f8fd;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ControlItem {
+    background-color: transparent;
+    border: none;
+}
+
+#MinusWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.ControllBtns {
+    background-color: transparent;
+    border: none;
+}
+
+#AddToCart {
+    width: 61%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7e1b;
+}
+
+#InnerDivAddToCart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#AddToCartLAbel {
+    color: white;
+
+}
+
+#WhiteCart {
+    filter: brightness(0)invert(1);
+}
+
+#MenuIcon {
+    display: none;
+}
+
+.ControllerImageBtns {
+    display: none;
+}
+
+#CartBox {
+    display: none;
+    width: 25%;
+    height: 229px;
+    background-color: white;
+    position: absolute;
+    top: 103px;
+    margin-left: 600px;
+    border-radius: 10px;
+    flex-direction: column;
+
+    
+}
+#UpperCartBox {
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    color: #1d2026;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#LowerCartBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    justify-content: space-around;
+    column-gap: 5px;
+}
+
+#ItemCard {
+    width: 85%;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ItemDetails>label {
+    color: #69707d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#CartCheckOut {
+    width: 90%;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7e1b;
+    color: white;
+}
+
+#SmallIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+#DeleteIcon {
+    width: 14px;
+    height: 16px;
+}
+
+#UpperCartBox>label {
+    margin-left: 24px;
+}
+
+#ItemDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+#SideBar {
+    display: none;
+}
+
+
+@media (max-width:375px) {
+    #MenuIcon {
+        display: inline-block;
+    }
+
+    #AnchorsWrapper {
+        display: none;
+    }
+
+    #SideBar {
+        color: #1d2026;
+        font-family: "Kumbh Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    #overlay {
+        margin-left: 70%;
+        position: fixed;
+        /* Sit on top of the page content */
+        display: none;
+        /* Hidden by default */
+        width: 100%;
+        /* Full width (cover the whole page) */
+        height: 100%;
+        /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Black background with opacity */
+        z-index: 2;
+        /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer;
+        /* Add a pointer on hover */
+    }
+
+    #wrapper {
+        margin-top: unset;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: unset;
+        align-items: center;
+    }
+
+    #NavBar {
+        width: 90%;
+        height: 74px;
+    }
+
+    #MobileAnhcros {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    #CloseBtn {
+        width: 13.4px;
+        height: 13.4px;
+        margin-top: 24px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    #SideBar {
+        display: none;
+        flex-direction: column;
+        row-gap: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #CartBox {
+        width: 90%;
+        height: 256px;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        border-radius: 10px;
+        flex-direction: column;
+        margin-left: unset;
+        justify-content: center;
+    }
+
+    #AvatarWithCart {
+        column-gap: 22px;
+    }
+
+    #LogoWithLinks {
+        column-gap: 16px;
+    }
+
+    #ItemNumbers {
+        border-radius: 10px;
+    }
+
+    #Content {
+        border-top: #979797;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: unset;
+    }
+
+    #InnerContentWrapper {
+        height: unset;
+        width: 100%;
+        display: flex;
+        row-gap: 26px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #ImagesWrapper {
+        width: 100%;
+    }
+
+    #MainImage {
+        width: 100%;
+        height: 375px;
+    }
+
+    #MainProduct {
+        width: 100%;
+        height: 100%;
+        border-radius: unset;
+    }
+
+    #AvatarIcon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ControllerImageBtns {
+        display: flex;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    #PreviousBtn {
+        top: 27%;
+        left: 13px;
+    }
+
+    #NextBTn {
+        top: 27%;
+        right: 13px;
+    }
+
+    #ThumbnailsImagesWrapper {
+        display: none;
+    }
+
+    #InfoWrapper {
+        width: 100%;
+        height: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #InfoInnerWrapper {
+        height: unset;
+        width: 90%;
+    }
+
+    #PriceDiv {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #ActualPrice {
+        column-gap: 10px;
+    }
+
+    #HeaderTittle {
+        color: #1d2026;
+        font-family: Kumbh Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        /* 114.286% */
+    }
+
+    #ControlItem {
+        flex-direction: column;
+        height: 116px;
+    }
+
+    #ItemNumbers {
+        width: 100%;
+        height: 56px;
+    }
+
+    #AddToCart {
+        width: 100%;
+        height: 56px;
+    }
+}

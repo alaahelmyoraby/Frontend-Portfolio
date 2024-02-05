@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker</title>
+    <link rel="stylesheet" href="./sneaker.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="overlay"></div>
+        <div id="NavBar">
+            <div id="LogoWithLinks">
+                <img id="MenuIcon" src="./images/icon-menu.svg">
+                <img src="./images/logo.svg">
+                <div id="AnchorsWrapper">
+                    <a> Collection</a>
+                    <a>Men</a>
+                    <a>Women</a>
+                    <a>About</a>
+                    <a>About</a>
+                    <a>Contact</a>
+                </div>
+            </div>
+            <div id="AvatarWithCart">
+                <img id="CartImg" src="./images/icon-cart.svg" alt="">
+                <img id="AvatarIcon" src="./images/image-avatar.png">
+            </div>
+        </div>
+        <div id="Content">
+            <div id="InnerContentWrapper">
+                <div id="ImagesWrapper">
+                    <div id="MainImage">
+                        <button id="PreviousBtn" class="ControllerImageBtns">
+                            <img src="./images/icon-previous.svg">
+                        </button>
+                        <img id="MainProduct" src="./images/image-product-1.jpg">
+                        <button id="NextBTn" class="ControllerImageBtns">
+                            <img src="./images/icon-next.svg">
+                        </button>
+                    </div>
+                    <div id="ThumbnailsImagesWrapper">
+                        <img id="firstthumbnail" class="ThumbnailsImages" src="./images/image-product-1-thumbnail.jpg">
+                        <img id="secondthumbnail" class="ThumbnailsImages" src="./images/image-product-2-thumbnail.jpg">
+                        <img id="thirdthumbnail" class="ThumbnailsImages" src="./images/image-product-3-thumbnail.jpg">
+                        <img id="fourththumbnail" class="ThumbnailsImages" src="./images/image-product-4-thumbnail.jpg">
+                    </div>
+                </div>
+                <div id="InfoWrapper">
+                    <div id="InfoInnerWrapper">
+                        <label id="SneakerCompanyLabel">Sneaker Company</label>
+                        <h1 id="HeaderTittle">Fall Limited Edition Sneakers</h1>
+                        <p>
+                            These low-profile sneakers are your perfect casual wear
+                            companion. Featuring a durable rubber outer sole, they’ll
+                            withstand everything the weather can offer.
+                        </p>
+                        <div id="PriceDiv">
+                            <div id="ActualPrice">
+                                <label id="LabelPrice">$125.00</label>
+                                <label id="DiscountPresentantge">50%</label>
+                            </div>
+                            <label id="DiscountPrice">$250.00</label>
+                        </div>
+                        <div id="ControlItem">
+                            <div id="ItemNumbers">
+                                <button class="ControllBtns" id="MinusWrapper">
+                                    <img src="./images/icon-minus.svg" alt="">
+                                </button>
+                                <label id="itemcountlabel">0</label>
+                                <button class="ControllBtns" id="PlusWrapper">
+                                    <img src="./images/icon-plus.svg" alt="">
+                                </button>
+                            </div>
+                            <button id="AddToCart">
+                                <div id="InnerDivAddToCart">
+                                    <img id="WhiteCart" src="./images/icon-cart.svg">
+                                    <label id="AddToCartLAbel">Add To Cart</label>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="SideBar">
+        <img id="CloseBtn" src="./images/icon-close.svg">
+        <div id="MobileAnhcros">
+            <a>Collections</a>
+            <a>Men</a>
+            <a>Women</a>
+            <a>Contact</a>
+            <a>About</a>
+        </div>
+    </div>
+    <div id="CartBox" CurrentState="DisplayNone">
+        <div id="UpperCartBox">
+            <label>Cart</label>
+        </div>
+        <div id="LowerCartBox">
+            <div id="ItemCard">
+                <img id="SmallIcon" src="./images/image-product-1-thumbnail.jpg">
+                <div id="ItemDetails">
+                    <label>Fall Limited Edition Sneakers</label>
+                    <label> $125.00 x 3</label>
+                </div>
+                <img id="DeleteIcon" src="./images/icon-delete.svg">
+            </div>
+            <button id="CartCheckOut">Checkout</button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./sneaker.js" ></script>
+
+
+
+</body>
+</html>
