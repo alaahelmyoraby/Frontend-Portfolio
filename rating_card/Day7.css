@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%)
+
+}
+
+#child{
+    width: 300px;
+    height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+    padding: 15px;
+    
+}
+#starrate{
+    display: flex;
+    justify-content: right;
+}
+#stars{
+    background-color: #38404b;
+    border-style: none;
+    border-radius: 21px;
+    width: 34px;
+    height: 32px;
+}
+#star_char{
+    color: hsl(25, 97%, 53%);
+}
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: hsl(0, 0%, 100%)
+}
+.textdeco{
+    font-size: 13px;
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+
+
+}
+#ratebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+.ratedec{
+    background-color:hsl(213, 8%, 22%);
+    border-style: none;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    color: hsl(217, 12%, 63%) ;
+}
+.ratedec:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+#submitbuttons{
+    width: 280px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    color: aliceblue;
+    padding: 2px;
+}
+#submitbuttons:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#child2{
+    width: 300px;
+    height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 33px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18px;
+    padding: 15px;
+    
+}
+
+#select{
+    background-color:hsl(210, 3%, 24%);
+    color: hsl(25, 97%, 53%);
+    border-style: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 20px;
+    padding: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#thanks_statment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
