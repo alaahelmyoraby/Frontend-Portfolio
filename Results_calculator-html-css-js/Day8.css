@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;1,300&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wholedesign {
+    width: 520px;
+    height: 340px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+
+#yourresult {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+#circle {
+    width: 136px;
+    height: 132px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#circle_dec {
+    margin: 0;
+    font-weight: 800;
+    font-size: 53px
+}
+
+
+#comments {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail_result {
+    font-size: 12px;
+    margin: 0;
+    line-height: 18px;
+    word-spacing: 0.2em;
+    font-weight: 300;
+}
+
+#title_result {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#summaring {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+#summary_title {
+    color: hsl(223, 26%, 22%);
+    font-weight: 700;
+    margin-right: 148px;
+}
+
+#components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 17px;
+    height: 77%
+}
+
+#submit_button {
+    width: 90%;
+}
+
+#Reaction_Bar {
+    background-color: #FFF6F5;
+}
+
+.inputs{
+    width: 50px;
+    border-style: none;
+    background-color: rgb(233, 233, 233);
+}
+.bar {
+    width: 225px;
+    height: 42px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 9px;
+    padding-left: 4px;
+
+}
+
+#style_reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#Memory_Bar {
+    background-color: #FFFBF2;
+}
+
+#style_memory {
+    color: hsl(39, 100%, 56%);
+}
+
+
+#Verbal_Bar {
+    background-color: #F2FBFA;
+}
+
+#style_verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#Visual_Bar {
+    background-color: #F3F3FD;
+}
+
+#style_visual {
+    color: hsl(234, 85%, 45%);
+}
+
+
+#submit_button:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
+
+#submit_button {
+    border-style: none;
+    height: 36px;
+    width: 226px;
+    border-radius: 22px;
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: hsl(224, 30%, 27%);
+}
+
+.score {
+    color: hsl(224, 30%, 27%);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+@media (max-width:375px) {
+    #wholedesign {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        border-radius: 10px 10px 0 0; /* Set only the bottom corners to 0 */
+        box-shadow:unset;
+
+    }
+
+    #yourresult {
+        width: 100%;
+        height: 50%;
+        border-radius: 0 0 20px 20px;
+    }
+
+    #summaring {
+        width: 100%;
+        height: 50%;
+        align-items: unset;
+    }
+
+    #submit_button {
+        height: 33px;
+        width: 252px;
+        margin-bottom: 10px;
+    }
+    #button_part{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar {
+        width: 90%;
+        height: 50px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #summary_title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 195px;
+    }
+    #circle {
+        width: 124px;
+        height: 132px;
+    }
+}
