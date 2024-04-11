@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300..900&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+}
+#qrdesign {
+    width: 20%;
+    height: 70%;
+    background-color: white;
+    border-radius: 21px;
+}
+
+#qr {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#qrimage {
+    width: 91%;
+    height: 91%;
+    border-radius: 12px;
+}
+#qrcaption{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+row-gap:3px ;
+}
+#headstyle{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%)
+}
+#spanstyle{
+    color:hsl(220, 15%, 55%) ;
+    font-weight: 400;
+    font-size: 15px;
+}
+#spans{
+    line-height: 1px;
+}

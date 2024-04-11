@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="Abovewrapper">
+            <div id="calcdiv">
+                <span id="calc">calc</span>
+            </div>
+
+            <div id="Button">
+                <span>THEME</span>
+                <div id="innerbutton">
+                    <span>1 2 3</span>
+                    <button>1</button>
+                </div>
+            </div>
+        </div>
+        <form id="middlewrapper" name="form">
+            <input type="text" name="textview" id="display">
+        </form>
+        <div id="belowwrapper">
+            <div id="Buttons">
+                <div class="buttonwrapper">
+                    <div class="buttondesign"><input type="button" value="7" class="button" onclick="insert(7)"></div>
+                    <div class="buttondesign"><input type="button" value="8" class="button" onclick="insert(8)"></div>
+                    <div class="buttondesign"><input type="button" value="9" class="button" onclick="insert(9)"></div>
+                    <div class="buttondesign"><input type="button" value="DEL" class="button" onclick="back()"></div>
+                </div>
+                <div class="buttonwrapper">
+                    <div class="buttondesign"><input type="button" value="4" class="button" onclick="insert(4)"></div>
+                    <div class="buttondesign"><input type="button" value="5" class="button" onclick="insert(5)"></div>
+                    <div class="buttondesign"><input type="button" value="6" class="button" onclick="insert(6)"></div>
+                    <div class="buttondesign"><input type="button" value="&#43;" class="button" onclick="insert('+')"></div>
+                </div>
+                <div class="buttonwrapper">
+                    <div class="buttondesign"><input type="button" value="1" class="button" onclick="insert(1)"></div>
+                    <div class="buttondesign"><input type="button" value="2" class="button" onclick="insert(2)"></div>
+                    <div class="buttondesign"><input type="button" value="3" class="button" onclick="insert(3)"></div>
+                    <div class="buttondesign"><input type="button" value="&#8722;" class="button" onclick="insert('-')"></div>
+                </div>
+                <div class="buttonwrapper">
+                    <div class="buttondesign"><input type="button" value="." class="button" onclick="insert('.')"></div>
+                    <div class="buttondesign"><input type="button" value="0" class="button" onclick="insert(0)"></div>
+                    <div class="buttondesign"><input type="button" value="&#247; "class="button" onclick="insert('/')"></div>
+                    <div class="buttondesign"><input type="button"value="&#215;" class="button" onclick="insert('*')"></div>
+                </div>
+                <div class="buttonwrapper">
+                    <div id="resetbutton" ><input type="button" value="RESET" id="resetbutton"onclick="clean();"></div>
+                    <div id="equalbutton" ><input type="button"value="&#61;" id="equalbutton" onclick="equal();"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
